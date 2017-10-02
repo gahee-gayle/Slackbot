@@ -1,0 +1,23 @@
+{
+  "name": "Slackbot",
+  "scripts": {
+  },
+  "env": {
+    "HEROKU_URL": {
+      "required": true
+    },
+    "HUBOT_SLACK_TOKEN": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
